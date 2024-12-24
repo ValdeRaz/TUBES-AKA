@@ -14,7 +14,7 @@ Code reverse string secara rekursif
 procedure reverseStringRecursive(str : string, idx : int)
 kamus 
 algoritma
-    if idx < 0 then
+    if idx <= 0 then
         return
     else 
         output (str[idx])
